@@ -1,0 +1,258 @@
+/* limpieza basica */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+/* fondo oscuro de la barra de navegación */
+.barra_navegacion {
+    background-color: #4e4d4d;
+    padding: 5px; 
+    border-top: 10px solid #333; /* Bordes redondeados */
+    border-radius: 10px;
+}
+
+/* La tabla debe ocupar todo el ancho disponible  */
+.tabla_navegacion {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Alinea el texto a la izquierda y agrega un poco de espacio entre las celdas */ 
+.col_logo {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.col_menu {
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* Esta celda absorve el espacio del medio */
+.col_espacio {
+    width: 60%;
+}
+
+Estilos para el contenido principal */
+.col_logo h5 {
+    color: #ffffff; /* Color del nombre */
+    margin: 0;
+    font-size: 1rem;
+}
+
+.col_logo h5 .apellido {
+    color: #ffffff; /* Color diferente para el apellido */
+}
+
+/* Estilos para el menú de navegación  */
+.col_menu a {
+    color: #ffffff; /* Color de los enlaces del menú */
+    text-decoration: none;
+    margin-left: 20px; /* Espacio entre los enlaces */
+}
+
+.col_menu a.activo {
+    color: #ffffff; /* Color para el enlace activo */
+
+}
+
+.space1 {
+    width: 20%; /* Espacio entre el logo y el menú */
+}
+
+.space2 {
+    width: 20%; /* Espacio entre el menú y el final */
+}
+
+.seccion_sobre_mi {
+    background-color: #ffffff;
+    padding: 60px;
+    
+    
+}
+/* Configuracion de la tabla contenedor */
+.tabla_contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Alineacion vertical de las celdas  */
+.colIlustracion, .colTexto {
+    vertical-align: top;
+    padding: 5px;
+}
+
+/* Columna de la ilustracion  */
+.colIlustracion {
+    width: 40%;
+    text-align: right;
+}
+
+.colIlustracion img {
+    max-width: 400px; /* Limita el ancho máximo de la imagen */
+    width: 100%; /* La imagen ocupará el ancho completo de su contenedor */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+Columna vacia que genera la separcion entre la ilustracion y el texto */
+.colSeparacion {
+    width: 10%;
+}
+
+/* Columna del texto  */
+.coltexto {
+    width: 50%;
+    text-align: left;
+}
+
+/* Estilos de los textos  */
+.titulorojo {
+    color: #ff0000; /* Color rojo para el título */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.descripcion {
+    color: #333; /* Color del texto de descripción */
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Boton Leer mas  */
+.botonrojo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.bibliografia{
+    background-color: #ff451d;
+    padding: 60px;
+}
+
+.tablabibliografia{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Alineacion vertical de las celdas */
+.filailustracion, .filatexto{
+    vertical-align: top;
+    padding: 5px;
+}
+
+/* fila de la ilustracion */
+.filailustracion{
+    width: 40%;
+    text-align: center;
+}
+
+.filailustracion img{
+    max-width: 400px;
+    margin-top: -50px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.filatexto{
+    width: 50%;
+    text-align: center;
+}
+.descripcion2{
+    padding: 80px;
+    margin-top: -60px;
+    color: #fff;
+    
+}
+
+.name{
+    color: #fff;
+    margin-top: -50px;
+}
+
+.proyectos{
+    background-color: #fff;
+    padding: 80px;
+}
+.tablaproyectos{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+.misproyectos{
+    margin-top: -40px;
+    /* text-align: center; */
+}
+
+table{
+    width: 100%;
+}
+
+.proyecto{
+    border-spacing: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 20px;
+    /* width: 20%; */
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+    /* display: inline-block; */
+    padding: 5px;
+}
+.imagproyecto1{
+    width: 100%;
+    display: block;
+    /* margin-left: 0; */
+    
+    
+}
+.boton1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    transition: background-color 0.3s ease;
+}
+
+.imagproyecto2{
+    border-spacing: 20px;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    /* margin-right: auto; */
+}
+
+.imagproyecto3{
+    border-spacing: 20px;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    /* margin-right: auto; */
+}
+.imagproyecto4{
+    border-spacing: 20px;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    /* margin-right: auto; */
+}
